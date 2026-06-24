@@ -1,6 +1,7 @@
-package com.reposicion.ventas.service;
+package com.reposicion.ventas;
 
 import com.reposicion.ventas.client.SucursalClient;
+import com.reposicion.ventas.dto.SucursalDTO;
 import com.reposicion.ventas.dto.VentasDTO;
 import com.reposicion.ventas.model.Ventas;
 import com.reposicion.ventas.repository.VentasRepository;
@@ -25,7 +26,7 @@ public class VentasService {
     public VentasDTO registrarVenta(VentasDTO ventasDTO) {
         logger.info("Validando existencia de sucursal ID: {}", ventasDTO.getSucursalId());
 
-        Object sucursal = sucursalClient.obtenerSucursal(ventasDTO.getSucursalId());
+        SucursalDTO sucursal = sucursalClient.obtenerSucursal(ventasDTO.getSucursalId());
         if (sucursal == null) {
             throw new RuntimeException("Sucursal no encontrada");
         }

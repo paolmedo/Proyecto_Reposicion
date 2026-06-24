@@ -5,7 +5,6 @@ import com.reposicion.ventas.dto.SucursalDTO;
 import com.reposicion.ventas.dto.VentasDTO;
 import com.reposicion.ventas.model.Ventas;
 import com.reposicion.ventas.repository.VentasRepository;
-import com.reposicion.ventas.service.VentasService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -78,6 +77,23 @@ class VentasServiceTest {
         assertEquals("ANULADA", ventaActiva.getEstado());
         verify(ventasRepository, times(1)).findById(1L);
         verify(ventasRepository, times(1)).save(ventaActiva);
+    }
+
+    @Test
+    void registrarVenta_SucursalNoExiste_LanzaExcepcion() {
+        // Given (Prepara datos con un ID que no existe)
+        VentasDTO requestDTO = new VentasDTO();
+        requestDTO.setSucursalId(99L);
+        requestDTO.setProducto("Teclado");
+
+        // Simulamos que el Feign Client devuelve null
+        when(sucursalClient.obtenerSucursal(99L)).thenReturn(null);
+
+        // When & Then (Verificamos que lance la excepción y no guarde nada)
+        RuntimeException exception = assertThrows(RuntimeException.class, () -> ventasService.registrarVenta(requestDTO));
+
+        assertEquals("Sucursal no encontrada", exception.getMessage());
+        verify(ventasRepository, never()).save(any(Ventas.class));
     }
 
     @Test

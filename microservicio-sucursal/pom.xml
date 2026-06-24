@@ -71,7 +71,7 @@
 		<!-- Herramienta para migraciones y control de versiones de la base de datos -->
 		<dependency>
 			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<artifactId>flyway-mysql</artifactId>
 		</dependency>
 		<!-- Lombok -->
 		<dependency>

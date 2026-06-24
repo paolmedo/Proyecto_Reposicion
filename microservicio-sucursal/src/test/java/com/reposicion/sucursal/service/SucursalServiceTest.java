@@ -8,6 +8,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Optional;
 
@@ -60,5 +61,55 @@ public class SucursalServiceTest {
         assertNotNull(resultado);
         assertEquals(1L, resultado.getId());
         verify(sucursalRepository, times(1)).findById(1L);
+    }
+    @Test
+    void obtenerTodas_DeberiaRetornarListaDeSucursales() {
+        // Given
+        Sucursal s1 = new Sucursal();
+        Sucursal s2 = new Sucursal();
+        when(sucursalRepository.findAll()).thenReturn(java.util.Arrays.asList(s1, s2));
+
+        // When
+        java.util.List<Sucursal> resultado = sucursalService.obtenerTodas();
+
+        // Then
+        assertEquals(2, resultado.size());
+        verify(sucursalRepository, times(1)).findAll();
+    }
+
+    @Test
+    void actualizarSucursal_DeberiaRetornarActualizada_CuandoExiste() {
+        // Given
+        Sucursal existente = new Sucursal();
+        existente.setId(1L);
+        existente.setNombre("Antiguo Nombre");
+
+        SucursalDTO dto = new SucursalDTO();
+        dto.setNombre("Nuevo Nombre");
+
+        when(sucursalRepository.findById(1L)).thenReturn(Optional.of(existente));
+        when(sucursalRepository.save(any(Sucursal.class))).thenReturn(existente);
+
+        // When
+        Sucursal resultado = sucursalService.actualizarSucursal(1L, dto);
+
+        // Then
+        assertNotNull(resultado);
+        assertEquals("Nuevo Nombre", resultado.getNombre());
+        verify(sucursalRepository, times(1)).save(any(Sucursal.class));
+    }
+
+    @Test
+    void eliminarSucursal_DeberiaRetornarTrue_CuandoExiste() {
+        // Given
+        when(sucursalRepository.existsById(1L)).thenReturn(true);
+        doNothing().when(sucursalRepository).deleteById(1L);
+
+        // When
+        boolean resultado = sucursalService.eliminarSucursal(1L);
+
+        // Then
+        assertTrue(resultado);
+        verify(sucursalRepository, times(1)).deleteById(1L);
     }
 }

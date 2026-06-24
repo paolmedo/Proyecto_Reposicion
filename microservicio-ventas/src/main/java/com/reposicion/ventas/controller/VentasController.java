@@ -1,7 +1,7 @@
 package com.reposicion.ventas.controller;
 
 import com.reposicion.ventas.dto.VentasDTO;
-import com.reposicion.ventas.service.VentasService;
+import com.reposicion.ventas.VentasService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
