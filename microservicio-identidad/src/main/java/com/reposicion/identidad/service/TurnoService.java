@@ -18,7 +18,7 @@ public class TurnoService {
 
     private final TurnoRepository turnoRepository;
 
-    // Crear turno con validaciones
+    // Crear turno
     public TurnoTrabajador crearTurno(TurnoDTO turnoDTO){
         log.info("Iniciando creacion de turno... Horario solicitado: {} - {}", turnoDTO.getHoraInicio(), turnoDTO.getHoraTermino());
         if (turnoDTO.getHoraTermino().isBefore(turnoDTO.getHoraInicio()) ||
@@ -39,13 +39,13 @@ public class TurnoService {
     return guardado;
     }
 
-    // Listar turnos
+    // Listar todos los turnos
     public List<TurnoTrabajador> listarTodosTurnos(){
         log.debug("Iniciando busqueda de todos los turnos");
         return turnoRepository.findAll();
     }
-    // Listar un turno en especifico
-    public TurnoTrabajador listarUnSoloTurno(Long id){
+    // Obtener un turno en especifico
+    public TurnoTrabajador obtenerUnSoloTurno(Long id){
         log.debug("Iniciando busqueda de turno con ID {}", id);
         return turnoRepository.findById(id).orElseThrow(() -> new RuntimeException("Turno no encontrado " + id));
     }

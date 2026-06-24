@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservicio Identidad/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservicio Inventario/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroServicioSucursal/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroServicioVentas/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicio-identidad/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicio-inventario/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicio-sucursal/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicio-ventas/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="ms-21" project-jdk-type="JavaSDK" />
+</project>
