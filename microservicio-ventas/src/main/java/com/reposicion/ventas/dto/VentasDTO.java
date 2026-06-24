@@ -4,10 +4,16 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class VentasDTO {
+
+    private Long id;
 
     @JsonProperty("sucursalId")
     @NotNull(message = "El ID de la sucursal es obligatorio.")
@@ -27,10 +33,5 @@ public class VentasDTO {
     @Min(value = 0, message = "El total no puede ser un monto negativo.")
     private Double total;
 
-    public VentasDTO(Long sucursalId, String producto, Integer cantidad, Double total) {
-        this.sucursalId = sucursalId;
-        this.producto = producto;
-        this.cantidad = cantidad;
-        this.total = total;
-    }
+    private String estado;
 }

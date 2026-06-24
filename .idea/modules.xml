@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/MicroServicioSucursal/MicroServicioSucursal.iml" filepath="$PROJECT_DIR$/MicroServicioSucursal/MicroServicioSucursal.iml" />
       <module fileurl="file://$PROJECT_DIR$/MicroServicioVentas/MicroServicioVentas.iml" filepath="$PROJECT_DIR$/MicroServicioVentas/MicroServicioVentas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Reposicion.iml" filepath="$PROJECT_DIR$/.idea/Reposicion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicio-sucursal/microservicio-sucursal.iml" filepath="$PROJECT_DIR$/microservicio-sucursal/microservicio-sucursal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicio-ventas/microservicio-ventas.iml" filepath="$PROJECT_DIR$/microservicio-ventas/microservicio-ventas.iml" />
     </modules>
   </component>
 </project>

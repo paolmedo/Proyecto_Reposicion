@@ -30,5 +30,7 @@ public class Ventas {
     @Min(value = 0, message = "El total no puede ser negativo.")
     private Double total;
 
+    private String estado= "ACTIVA";
+
     private LocalDateTime fechaVenta = LocalDateTime.now();
 }

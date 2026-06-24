@@ -1,11 +1,11 @@
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\client\SucursalClient.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\config\DataLoader.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\config\SwaggerConfig.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\controller\VentasController.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\dto\SucursalDTO.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\dto\VentasDTO.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\exception\GlobalExceptionController.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\model\Ventas.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\repository\VentasRepository.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\service\VentasService.java
-C:\Users\pavel\Desktop\ARCHIVOS\FullStack\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\VentasApplication.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\config\SwaggerConfig.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\VentasApplication.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\dto\SucursalDTO.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\exception\GlobalExceptionController.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\config\DataLoader.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\client\SucursalClient.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\dto\VentasDTO.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\controller\VentasController.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\repository\VentasRepository.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\service\VentasService.java
+C:\Users\Javi\Desktop\Inform tica\2do a¤o\Desarrollo FULLSTACK\PrimeraEntregaProyectoSpring\Reposicion\microservicio-ventas\src\main\java\com\reposicion\ventas\model\Ventas.java
