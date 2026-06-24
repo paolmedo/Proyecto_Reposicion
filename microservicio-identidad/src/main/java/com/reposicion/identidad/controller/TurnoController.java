@@ -72,7 +72,7 @@ public class TurnoController {
                 schema = @Schema(implementation = RespuestaError.class)))
     })
     public ResponseEntity<TurnoTrabajador> listarSoloUnTurno(@PathVariable Long id){
-        return ResponseEntity.ok(turnoService.listarUnSoloTurno(id));
+        return ResponseEntity.ok(turnoService.obtenerUnSoloTurno(id));
     }
 
     // Actualizar turno

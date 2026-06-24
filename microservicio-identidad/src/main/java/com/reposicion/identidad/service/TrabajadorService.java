@@ -46,8 +46,8 @@ public class TrabajadorService {
         log.debug("Iniciando busqueda de todos los trabajadores");
         return trabajadorRepository.findAll();
     }
-    // Listar un trabajador en específico
-    public Trabajador listarUnSoloTrabajador(Long id){
+    // Obtener un trabajador en específico
+    public Trabajador obtenerUnSoloTrabajador(Long id){
         log.debug("Inicando busqueda de trabajador con ID {}", id);
         return trabajadorRepository.findById(id).orElseThrow(() -> new RuntimeException("Usuario no encontrado con id: " + id));
     }

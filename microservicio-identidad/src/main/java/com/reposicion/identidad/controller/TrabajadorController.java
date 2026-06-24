@@ -72,7 +72,7 @@ public class TrabajadorController {
                 schema = @Schema(implementation = RespuestaError.class)))
     })
     public ResponseEntity<Trabajador> listarUnTrabajador(@PathVariable Long id){
-       return ResponseEntity.ok(trabajadorService.listarUnSoloTrabajador(id));
+       return ResponseEntity.ok(trabajadorService.obtenerUnSoloTrabajador(id));
     }
 
    // Actualizar trabajador
