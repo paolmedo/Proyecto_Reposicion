@@ -5,65 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbfdd38e-9eae-4015-abfc-5aeace1047b5" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.1.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.1.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/reposicion/gateway/ApiGatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/reposicion/eureka/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-sucursal/src/main/java/com/reposicion/sucursal/exception/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-sucursal/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-sucursal/target/classes/database/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-identidad/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-identidad/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-inventario/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-inventario/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-sucursal/target/classes/com/reposicion/sucursal/exception/ErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-sucursal/target/classes/com/reposicion/sucursal/exception/GlobalExceptionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-sucursal/target/test-classes/com/reposicion/sucursal/SucursalApplicationTests.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/microservicio-sucursal/target/test-classes/com/reposicion/sucursal/service/SucursalServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/exception/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/VentasService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/exception/ErrorResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicio-ventas/target/test-classes/com/reposicion/ventas/VentasServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63470f47-e511-4f37-9ee4-78c71b2e0e72/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66c9051c-2fdb-41a4-97da-8a59ae8469ba/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71813567-3941-4cc3-8ef0-89b65b428f62/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/db-forest-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/src/main/java/com/reposicion/sucursal/SucursalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/src/main/java/com/reposicion/sucursal/SucursalApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/src/main/java/com/reposicion/sucursal/config/DataLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/src/main/java/com/reposicion/sucursal/exception/GlobalExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/src/main/java/com/reposicion/sucursal/exception/GlobalExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.1.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.1.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.1.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-identidad/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-identidad/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-identidad/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-inventario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-inventario/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-inventario/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/microservicio-sucursal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/microservicio-sucursal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicio-sucursal/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/src/test/java/com/reposicion/sucursal/service/SucursalServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/src/test/java/com/reposicion/sucursal/service/SucursalServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/classes/com/reposicion/sucursal/SucursalApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/classes/com/reposicion/sucursal/SucursalApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/classes/com/reposicion/sucursal/config/DataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/microservicio-sucursal-0.1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/microservicio-sucursal-0.1.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-sucursal/target/microservicio-sucursal-0.1.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-sucursal/target/microservicio-sucursal-0.1.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicio-ventas/microservicio-ventas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/microservicio-ventas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/client/SucursalClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/client/SucursalClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/controller/VentasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/controller/VentasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/dto/SucursalDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/dto/SucursalDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/exception/GlobalExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/exception/GlobalExceptionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/service/VentasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/java/com/reposicion/ventas/VentasService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/src/test/java/com/reposicion/ventas/VentasApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/src/test/java/com/reposicion/ventas/VentasApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/client/SucursalClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/client/SucursalClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/controller/VentasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/controller/VentasController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/dto/SucursalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/dto/SucursalDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/exception/GlobalExceptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/exception/GlobalExceptionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/classes/com/reposicion/ventas/service/VentasService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/microservicio-ventas-0.1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/microservicio-ventas-0.1.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicio-ventas/target/microservicio-ventas-0.1.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/microservicio-ventas/target/microservicio-ventas-0.1.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +69,17 @@
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="0" />
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="566fcced-0fdb-4ee6-8804-b274c68606da" value="Blue" />
+      <entry key="e1f54718-74b0-4fdd-a061-2d24c8253778" value="Gray" />
+    </colors>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -97,13 +100,13 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/paolmedo/Reposicion.git&quot;,
-    &quot;accountId&quot;: &quot;415f7fb4-cf6f-4dd6-99c5-2b4977c1f57f&quot;
+    &quot;accountId&quot;: &quot;d7b00956-cf4d-4440-84b6-44ce4dd36adb&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -141,6 +144,10 @@
     "Maven.api-gateway [package].executor": "Run",
     "Maven.eureka-server [clean].executor": "Run",
     "Maven.eureka-server [package].executor": "Run",
+    "Maven.microservicio-identidad [clean].executor": "Run",
+    "Maven.microservicio-identidad [package].executor": "Run",
+    "Maven.microservicio-inventario [clean].executor": "Run",
+    "Maven.microservicio-inventario [package].executor": "Run",
     "Maven.microservicio-sucursal [clean].executor": "Run",
     "Maven.microservicio-sucursal [package].executor": "Run",
     "Maven.microservicio-ventas [clean].executor": "Run",
@@ -157,9 +164,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.IdentidadApplication.executor": "Run",
+    "Spring Boot.InventarioApplication.executor": "Run",
     "Spring Boot.SucursalApplication.executor": "Run",
     "Spring Boot.VentasApplication.executor": "Run",
-    "git-widget-placeholder": "kali",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "ultima-rama",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Javi/Desktop/Informática/2do año/Desarrollo FULLSTACK/PrimeraEntregaProyectoSpring/Reposicion/microservicio-ventas/src/main/resources",
@@ -213,6 +223,8 @@
             <map>
               <entry key="ApiGatewayApplication" value="STOPPED" />
               <entry key="EurekaServerApplication" value="STOPPED" />
+              <entry key="IdentidadApplication" value="STOPPED" />
+              <entry key="InventarioApplication" value="STOPPED" />
               <entry key="SucursalApplication" value="STOPPED" />
               <entry key="VentasApplication" value="STOPPED" />
             </map>
@@ -315,6 +327,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SucursalApplicationTests" />
+      <item itemvalue="JUnit.SucursalServiceTest" />
+      <item itemvalue="JUnit.VentasServiceTest" />
+      <item itemvalue="Spring Boot.SucursalApplication" />
+      <item itemvalue="Spring Boot.VentasApplication" />
+      <item itemvalue="Spring Boot.IdentidadApplication" />
+      <item itemvalue="Spring Boot.InventarioApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApiGatewayApplication" />
@@ -347,6 +370,8 @@
       <workItem from="1781104917365" duration="23899000" />
       <workItem from="1782265050358" duration="231000" />
       <workItem from="1782265373943" duration="15978000" />
+      <workItem from="1782413008022" duration="9353000" />
+      <workItem from="1782426049643" duration="12249000" />
     </task>
     <task id="LOCAL-00001" summary="swagger, yml, mockito">
       <option name="closed" value="true" />
