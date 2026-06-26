@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-253.33813.25">
-    <data-source name="inventario_bd@127.0.0.1" uuid="66c9051c-2fdb-41a4-97da-8a59ae8469ba">
+  <component name="dataSourceStorageLocal" created-in="IU-261.23567.138">
+    <data-source name="sucursal_bd@127.0.0.1" uuid="566fcced-0fdb-4ee6-8804-b274c68606da">
       <database-info product="MySQL" version="5.5.5-10.4.32-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.7.0 (Revision: 0aade1f13bcc98faf7dda5c02e782481eb291f62)" dbms="MARIADB" exact-version="10.4.32" exact-driver-version="9.7">
         <extra-name-characters>$</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
@@ -15,10 +16,11 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="ventas_bd@127.0.0.1" uuid="71813567-3941-4cc3-8ef0-89b65b428f62">
+    <data-source name="inventario_bd@127.0.0.1" uuid="b3ffc88c-3a99-459e-bb37-187bb4b07328">
       <database-info product="MySQL" version="5.5.5-10.4.32-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.7.0 (Revision: 0aade1f13bcc98faf7dda5c02e782481eb291f62)" dbms="MARIADB" exact-version="10.4.32" exact-driver-version="9.7">
         <extra-name-characters>$</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
@@ -29,15 +31,11 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="sucursal_bd@127.0.0.1" uuid="f3db4424-e175-4f1c-8a01-8ff16901b748">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
-      <user-name>root</user-name>
-      <schema-mapping />
-    </data-source>
-    <data-source name="identidad_bd@127.0.0.1" uuid="63470f47-e511-4f37-9ee4-78c71b2e0e72">
+    <data-source name="identidad_bd@127.0.0.1" uuid="80018da6-8852-46aa-84e5-f928885c7aa8">
       <database-info product="MySQL" version="5.5.5-10.4.32-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.7.0 (Revision: 0aade1f13bcc98faf7dda5c02e782481eb291f62)" dbms="MARIADB" exact-version="10.4.32" exact-driver-version="9.7">
         <extra-name-characters>$</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
@@ -48,15 +46,20 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="ventas_bd@host.docker.internal" uuid="0292c3de-b82f-470f-9ef2-35dcafd42cb5">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+    <data-source name="ventas_bd@127.0.0.1" uuid="d288cab9-368f-4bab-b65f-01c543d88793">
+      <database-info product="MySQL" version="5.5.5-10.4.32-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.7.0 (Revision: 0aade1f13bcc98faf7dda5c02e782481eb291f62)" dbms="MARIADB" exact-version="10.4.32" exact-driver-version="9.7">
+        <extra-name-characters>$</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <schema-mapping />
-    </data-source>
-    <data-source name="sucursal_bd@host.docker.internal" uuid="83e6ae8a-e909-4cce-87a8-0a35225abc19">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
-      <user-name>root</user-name>
-      <schema-mapping />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>

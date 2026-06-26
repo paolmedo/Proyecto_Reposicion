@@ -1,11 +1,12 @@
-com\reposicion\ventas\VentasApplication.class
 com\reposicion\ventas\config\DataLoader.class
-com\reposicion\ventas\dto\SucursalDTO.class
 com\reposicion\ventas\client\SucursalClient.class
+com\reposicion\ventas\exception\ErrorResponse.class
+com\reposicion\ventas\VentasApplication.class
+com\reposicion\ventas\VentasService.class
+com\reposicion\ventas\dto\SucursalDTO.class
 com\reposicion\ventas\controller\VentasController.class
 com\reposicion\ventas\repository\VentasRepository.class
 com\reposicion\ventas\config\SwaggerConfig.class
 com\reposicion\ventas\dto\VentasDTO.class
 com\reposicion\ventas\exception\GlobalExceptionController.class
-com\reposicion\ventas\service\VentasService.class
 com\reposicion\ventas\model\Ventas.class

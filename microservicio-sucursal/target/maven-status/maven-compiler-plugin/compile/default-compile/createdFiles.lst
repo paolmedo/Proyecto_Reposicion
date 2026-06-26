@@ -1,6 +1,6 @@
 com\reposicion\sucursal\service\SucursalService.class
-com\reposicion\sucursal\config\DataLoader.class
 com\reposicion\sucursal\config\SwaggerConfi.class
+com\reposicion\sucursal\exception\ErrorResponse.class
 com\reposicion\sucursal\exception\GlobalExceptionController.class
 com\reposicion\sucursal\repository\SucursalRepository.class
 com\reposicion\sucursal\controller\SucursalController.class
